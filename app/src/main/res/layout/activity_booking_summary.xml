@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".booking.BookingSummary">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/back"/>
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/boarder"
+                android:padding="8dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:id="@+id/bs_roomName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/bs_roomType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/red500"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:text="Final Priee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/red500"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:id="@+id/bs_roomFinalPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="4dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/bs_roomNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="right"
+                        android:textSize="20dp"
+                        android:id="@+id/bs_roomStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:visibility="invisible"
+                    android:text="unavailable"
+                    android:id="@+id/bs_roomStatus_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <View
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="8dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/bs_HotelName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark2"
+                android:background="@drawable/boarder"
+                android:gravity="center"
+                android:hint="Check In Date"
+                android:padding="2dp"
+                android:layout_weight="1"
+                android:id="@+id/in"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:src="@drawable/ic_date_range_black1_24dp"
+                android:id="@+id/calender_one"
+                android:layout_width="88dp"
+                android:layout_height="56dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark2"
+                android:background="@drawable/boarder"
+                android:gravity="center"
+                android:hint="Check Out Date"
+                android:padding="2dp"
+                android:layout_weight="1"
+                android:id="@+id/out"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:src="@drawable/ic_date_range_black1_24dp"
+                android:id="@+id/calender_Two"
+                android:layout_width="88dp"
+                android:layout_height="56dp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark2"
+            android:gravity="center"
+            android:inputType="number"
+            android:id="@+id/client_mob"
+            android:layout_margin="4dp"
+            android:hint="Enter your Mobile Number"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:id="@+id/txt_reg_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark2"
+        android:layout_margin="16dp"
+        android:text="RESERVED"
+        android:id="@+id/reserve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CustomDeals">
+
+    <include layout="@layout/back"/>
+
+    <EditText
+        android:inputType="phone"
+        android:hint="phone"
+        android:padding="8dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/boarder"
+        android:id="@+id/cs_phone"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+    <EditText
+        android:inputType="text"
+        android:padding="8dp"
+        android:hint="name"
+        android:layout_margin="4dp"
+        android:background="@drawable/boarder"
+        android:id="@+id/cs_name"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:hint="email"
+        android:layout_margin="4dp"
+        android:background="@drawable/boarder"
+        android:id="@+id/cs_email"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+    <EditText
+        android:inputType="text"
+        android:padding="8dp"
+        android:gravity="top"
+        android:hint="I want to customize this deal"
+        android:layout_margin="4dp"
+        android:background="@drawable/boarder"
+        android:id="@+id/cs_deal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+    <Button
+        android:textColor="@color/white"
+        android:text="customize deal"
+        android:id="@+id/submit"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

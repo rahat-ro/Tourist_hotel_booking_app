@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426708767154",
+    "firebase_url": "https://touristapp-34bcb.firebaseio.com",
+    "project_id": "touristapp-34bcb",
+    "storage_bucket": "touristapp-34bcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426708767154:android:c854a27236c3dfb6e954ab",
+        "android_client_info": {
+          "package_name": "com.naimrahat.touristapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426708767154-r9mm0kh1ts67qgo6teve3575oto65uri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naimrahat.touristapp",
+            "certificate_hash": "75868dd8153e01a5d29e2ebf290138b9ca2fed8a"
+          }
+        },
+        {
+          "client_id": "426708767154-th1mt4vb1i6j3a7ci73uf4je8v7eqc9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADFFVW5pgCTYA3Nsehw74BELOjQht10hk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426708767154-th1mt4vb1i6j3a7ci73uf4je8v7eqc9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

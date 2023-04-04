@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/toolbar"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp">
+
+</android.support.v7.widget.Toolbar>
+
+

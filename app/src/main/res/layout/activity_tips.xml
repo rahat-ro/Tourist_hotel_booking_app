@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".displaydetails.Tips">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/tips_Pic"
+                android:scaleType="fitXY"
+                android:src="@drawable/jaflong"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+
+            <TextView
+                android:id="@+id/tips_Title"
+                android:gravity="center"
+                android:padding="4dp"
+                android:layout_alignParentBottom="true"
+                android:background="#80000000"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:text="Jaflong- Sylhet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:id="@+id/tips_Des"
+                android:justificationMode="inter_word"
+                android:text="ghjhghj"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <include layout="@layout/back"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f9b0f</color>
+    <color name="colorPrimaryDark">#0f9b0f</color>
+    <color name="colorAccent">#52c234</color>
+
+
+    <color name="orange">#FF7D00</color>
+    <color name="pink">#D82460</color>
+    <color name="dark_grey">#383A4B</color>
+    <color name="light_grey">#7F838D</color>
+    <color name="snow_white">#F9F9F9</color>
+    <color name="black">#000000</color>
+    <color name="gray">#BDBDBD</color>
+
+    <color name="red500">#F44336</color>
+    <color name="white">#FFFFFF</color>
+
+
+
+    <color name="colorPrimary2">#dd3333</color>
+    <color name="colorPrimaryDark2">#7B1FA2</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrapeFruit">#ED5565</color>
+    <color name="colorGrapeFruitDark">#DA4453</color>
+    <color name="colorBitterSweet">#FC6E51</color>
+    <color name="colorBitterSweetDark">#E9573F</color>
+    <color name="colorFlower">#FFCE54</color>
+    <color name="colorFlowerDark">#F68B42</color>
+    <color name="colorGrass">#A0D468</color>
+    <color name="colorGrassDark">#8CC152</color>
+    <color name="colorBlueJeans">#509CEC</color>
+    <color name="colorBlueJeansDark">#4A89DC</color>
+    <color name="colorLavander">#AC92EC</color>
+    <color name="colorLavanderDark">#967ADC</color>
+    <color name="colorMint">#48CFAD</color>
+    <color name="colorMintDark">#37BC9B</color>
+    <color name="colorAqua">#4FC1E9</color>
+    <color name="colorAquaDark">#3BAFDA</color>
+    <color name="colorPinkRose">#EC87C0</color>
+    <color name="colorPinkRoseDark">#D770AD</color>
+
+
+
+
+</resources>

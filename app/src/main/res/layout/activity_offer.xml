@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl1"
+    android:layout_margin="2dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="2dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/offer_Pic"
+                android:scaleType="fitXY"
+                android:src="@drawable/jaflong"
+                android:layout_width="160dp"
+                android:layout_height="150dp" />
+
+
+            <TextView
+                android:id="@+id/offer_d"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/butoon_offer_background"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="O F F E R"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.19999999" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/locationTitle"
+                    android:padding="4dp"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#111"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#ffffff"
+                    android:text="Jaflong, Sythet"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/offer_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#D82460"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text=" BDT 18000"/>
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:onClick="getSpeechInput"
+                android:id="@+id/mic"
+                android:layout_weight="1"
+                android:src="@drawable/ic_more_vert_black_24dp"
+                android:layout_width="56dp"
+                android:layout_height="56dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
